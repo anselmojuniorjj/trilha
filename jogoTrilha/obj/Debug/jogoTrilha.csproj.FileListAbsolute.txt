@@ -1,0 +1,12 @@
+C:\workspace\csharp\jogoTrilha\jogoTrilha\bin\Debug\jogoTrilha.exe.config
+C:\workspace\csharp\jogoTrilha\jogoTrilha\bin\Debug\jogoTrilha.exe
+C:\workspace\csharp\jogoTrilha\jogoTrilha\bin\Debug\jogoTrilha.pdb
+C:\workspace\csharp\jogoTrilha\jogoTrilha\obj\Debug\jogoTrilha.csprojAssemblyReference.cache
+C:\workspace\csharp\jogoTrilha\jogoTrilha\obj\Debug\jogoTrilha.Inicial.resources
+C:\workspace\csharp\jogoTrilha\jogoTrilha\obj\Debug\jogoTrilha.Jogar.resources
+C:\workspace\csharp\jogoTrilha\jogoTrilha\obj\Debug\jogoTrilha.Properties.Resources.resources
+C:\workspace\csharp\jogoTrilha\jogoTrilha\obj\Debug\jogoTrilha.csproj.GenerateResource.cache
+C:\workspace\csharp\jogoTrilha\jogoTrilha\obj\Debug\jogoTrilha.csproj.CoreCompileInputs.cache
+C:\workspace\csharp\jogoTrilha\jogoTrilha\obj\Debug\jogoTrilha.exe
+C:\workspace\csharp\jogoTrilha\jogoTrilha\obj\Debug\jogoTrilha.pdb
+C:\workspace\csharp\jogoTrilha\jogoTrilha\obj\Debug\jogoTrilha.Jogo.resources
