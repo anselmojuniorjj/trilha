@@ -32,6 +32,7 @@
             this.txtJ2 = new System.Windows.Forms.TextBox();
             this.lblJ1 = new System.Windows.Forms.Label();
             this.btnJogar = new System.Windows.Forms.Button();
+            this.btnInicio = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtJ1
@@ -77,17 +78,32 @@
             this.btnJogar.UseVisualStyleBackColor = false;
             this.btnJogar.Click += new System.EventHandler(this.btnJogar_Click);
             // 
+            // btnInicio
+            // 
+            this.btnInicio.BackColor = System.Drawing.Color.DarkKhaki;
+            this.btnInicio.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnInicio.Font = new System.Drawing.Font("Bookman Old Style", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInicio.Location = new System.Drawing.Point(56, 600);
+            this.btnInicio.Name = "btnInicio";
+            this.btnInicio.Size = new System.Drawing.Size(238, 69);
+            this.btnInicio.TabIndex = 6;
+            this.btnInicio.Text = "Início";
+            this.btnInicio.UseVisualStyleBackColor = false;
+            this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
+            // 
             // Jogar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(1278, 714);
+            this.Controls.Add(this.btnInicio);
             this.Controls.Add(this.btnJogar);
             this.Controls.Add(this.lblJ1);
             this.Controls.Add(this.txtJ2);
             this.Controls.Add(this.txtJ1);
             this.Name = "Jogar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Jogar";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -100,5 +116,6 @@
         private System.Windows.Forms.TextBox txtJ2;
         private System.Windows.Forms.Label lblJ1;
         private System.Windows.Forms.Button btnJogar;
+        private System.Windows.Forms.Button btnInicio;
     }
 }

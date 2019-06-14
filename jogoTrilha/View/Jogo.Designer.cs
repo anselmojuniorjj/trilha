@@ -31,6 +31,7 @@
             this.lblG1 = new System.Windows.Forms.Label();
             this.lblVS = new System.Windows.Forms.Label();
             this.lblG2 = new System.Windows.Forms.Label();
+            this.btnRegras = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblG1
@@ -66,16 +67,30 @@
             this.lblG2.Text = "Jogador 2";
             this.lblG2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btnRegras
+            // 
+            this.btnRegras.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRegras.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegras.Location = new System.Drawing.Point(22, 613);
+            this.btnRegras.Name = "btnRegras";
+            this.btnRegras.Size = new System.Drawing.Size(188, 51);
+            this.btnRegras.TabIndex = 3;
+            this.btnRegras.Text = "Regras";
+            this.btnRegras.UseVisualStyleBackColor = true;
+            this.btnRegras.Click += new System.EventHandler(this.btnRegras_Click);
+            // 
             // Jogo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(1278, 714);
+            this.Controls.Add(this.btnRegras);
             this.Controls.Add(this.lblG2);
             this.Controls.Add(this.lblVS);
             this.Controls.Add(this.lblG1);
             this.Name = "Jogo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Jogo";
             this.Load += new System.EventHandler(this.Jogo_Load);
             this.ResumeLayout(false);
@@ -87,5 +102,6 @@
         private System.Windows.Forms.Label lblG1;
         private System.Windows.Forms.Label lblVS;
         private System.Windows.Forms.Label lblG2;
+        private System.Windows.Forms.Button btnRegras;
     }
 }

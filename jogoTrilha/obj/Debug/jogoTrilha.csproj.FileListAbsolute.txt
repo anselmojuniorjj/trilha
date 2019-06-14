@@ -10,3 +10,4 @@ C:\workspace\csharp\jogoTrilha\jogoTrilha\obj\Debug\jogoTrilha.csproj.CoreCompil
 C:\workspace\csharp\jogoTrilha\jogoTrilha\obj\Debug\jogoTrilha.exe
 C:\workspace\csharp\jogoTrilha\jogoTrilha\obj\Debug\jogoTrilha.pdb
 C:\workspace\csharp\jogoTrilha\jogoTrilha\obj\Debug\jogoTrilha.Jogo.resources
+C:\workspace\csharp\jogoTrilha\jogoTrilha\obj\Debug\jogoTrilha.View.Regras.resources

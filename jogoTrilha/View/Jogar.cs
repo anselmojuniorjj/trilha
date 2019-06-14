@@ -28,19 +28,29 @@ namespace jogoTrilha
 
         private void txtJ1_TextChanged(object sender, EventArgs e)
         {
-            jogador1.nome = txtJ1.Text;        
+            jogador1.nome = txtJ1.Text;
+            
+           
         }
 
         private void txtJ2_TextChanged(object sender, EventArgs e)
         {
-            jogador2.nome = txtJ2.Text;            
+            jogador2.nome = txtJ2.Text;
+            
         }
 
         private void btnJogar_Click(object sender, EventArgs e)
         {
+           
             Jogo jogo = new Jogo(jogador1.nome, jogador2.nome);
-            jogo.Show();
+            jogo.ShowDialog();           
 
+        }
+
+        private void btnInicio_Click(object sender, EventArgs e)
+        {
+            Inicial inicial = new Inicial();
+            inicial.ShowDialog();
         }
     }
 }

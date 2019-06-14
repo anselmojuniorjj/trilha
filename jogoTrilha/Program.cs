@@ -16,7 +16,15 @@ namespace jogoTrilha
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Inicial());
+            // Jogar jogar = new Jogar();
+            // Application.Run(new Inicial());
+            Inicial inicial = new Inicial();
+            if (inicial.ShowDialog() == DialogResult.OK)
+                Application.Run(new Jogar());
+
+            //Jogar jogar = new Jogar();
+           // if (jogar.teste == true)
+               // Application.Run(new Jogo());
         }
     }
 }

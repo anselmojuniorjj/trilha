@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using jogoTrilha.View;
 
 namespace jogoTrilha
 {
     public partial class Jogo : Form
     {
-
+       
         public Jogo(string jogador1, string jogador2)
         {
             InitializeComponent();
@@ -34,6 +35,12 @@ namespace jogoTrilha
         private void Jogo_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnRegras_Click(object sender, EventArgs e)
+        {
+            Regras regras = new Regras();
+            regras.Show();
         }
     }
 }
